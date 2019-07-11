@@ -1,0 +1,25 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+
+inhibit_all_warnings!
+
+target 'SwiftMVVMDemo' do
+    use_frameworks!
+    
+    # 网络库
+    pod 'Alamofire', '~> 4.4.0'
+    # 代码自动布局工具
+    pod 'SnapKit', '~> 4.0.0'
+    # 数据库工具
+    pod 'RealmSwift', '~> 3.0.2'
+    # JSON解析工具
+    pod 'SwiftyJSON', '~> 3.1.4'
+    # 网络图片加载、缓存
+    pod 'Kingfisher'
+    # 日志系统
+    pod 'SwiftyBeaver'
+    # 加载控件
+    pod 'MBProgressHUD'
+    # 图文混排
+    pod 'YYText'
+end

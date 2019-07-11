@@ -1,0 +1,17 @@
+/* 
+  InfoPlist.strings
+  SwiftMVVMDemo
+
+  Created by Shengtao Liu on 2017/12/27.
+  Copyright © 2017年 Shengtao Liu. All rights reserved.
+*/
+
+CFBundleDisplayName = "SwiftMVVMDemo";
+
+NSAppleMusicUsageDescription = "Please click 「Allow」to use media library";
+NSBluetoothPeripheralUsageDescription = "Please click 「Allow」to use bluetooth";
+NSCameraUsageDescription = "Please click 「Allow」to use camera";
+NSLocationAlwaysUsageDescription = "Please click 「Allow」to use location";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Please click 「Allow」to use location";
+NSLocationWhenInUseUsageDescription = "Please click 「Allow」to use location";
+NSPhotoLibraryUsageDescription = "Please click 「Allow」to use photo library";

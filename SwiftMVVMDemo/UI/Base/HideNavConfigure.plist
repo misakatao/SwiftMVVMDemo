@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   HideNavConfigure.plist
+   SwiftMVVMDemo
+
+   Created by Shengtao Liu on 2017/12/27.
+   Copyright (c) 2017年 Shengtao Liu. All rights reserved.
+-->
+<plist version="1.0">
+    <array>
+        <string>LoginController</string>
+        <string>PlaceHolderViewController</string>
+        <string>HomeController</string>
+    </array>
+</plist>
