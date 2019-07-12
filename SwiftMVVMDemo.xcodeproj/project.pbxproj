@@ -449,7 +449,6 @@
 				081D161E1FF3414000C57EA8 /* Frameworks */,
 				081D161F1FF3414000C57EA8 /* Resources */,
 				2D9061727E8F322FAFE16E5C /* [CP] Embed Pods Frameworks */,
-				BF2345846B2A00EC6000EB5A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -581,7 +580,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMVVMDemo/Pods-SwiftMVVMDemo-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMVVMDemo/Pods-SwiftMVVMDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
@@ -606,22 +605,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMVVMDemo/Pods-SwiftMVVMDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BF2345846B2A00EC6000EB5A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMVVMDemo/Pods-SwiftMVVMDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftMVVMDemo/Pods-SwiftMVVMDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F89F580C1EBC68B7BBAFEEAB /* [CP] Check Pods Manifest.lock */ = {
@@ -879,7 +863,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftMVVMDemo/SwiftMVVMDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -897,7 +881,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ybzg.SwiftMVVMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftMVVMDemo/SwiftMVVMDemo-Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
